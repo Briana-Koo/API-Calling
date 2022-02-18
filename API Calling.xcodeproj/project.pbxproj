@@ -13,6 +13,7 @@
 		3F621AB527BF3BE900080192 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F621AB427BF3BE900080192 /* Preview Assets.xcassets */; };
 		3F621AC027BF3BE900080192 /* API_CallingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621ABF27BF3BE900080192 /* API_CallingTests.swift */; };
 		3F621ACB27BF3BE900080192 /* API_CallingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621ACA27BF3BE900080192 /* API_CallingUITests.swift */; };
+		3F621AD927BF455900080192 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F621AD827BF455900080192 /* Books.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F621AC627BF3BE900080192 /* API CallingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API CallingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F621ACA27BF3BE900080192 /* API_CallingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_CallingUITests.swift; sourceTree = "<group>"; };
 		3F621ACC27BF3BE900080192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F621AD827BF455900080192 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3F621AAD27BF3BE300080192 /* API_CallingApp.swift */,
 				3F621AAF27BF3BE300080192 /* ContentView.swift */,
+				3F621AD827BF455900080192 /* Books.swift */,
 				3F621AB127BF3BE900080192 /* Assets.xcassets */,
 				3F621AB627BF3BE900080192 /* Info.plist */,
 				3F621AB327BF3BE900080192 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F621AD927BF455900080192 /* Books.swift in Sources */,
 				3F621AB027BF3BE300080192 /* ContentView.swift in Sources */,
 				3F621AAE27BF3BE300080192 /* API_CallingApp.swift in Sources */,
 			);
